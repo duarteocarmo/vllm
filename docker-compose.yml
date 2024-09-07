@@ -11,5 +11,5 @@ services:
     ports:
       - 5555:8000
     ipc: host
-    command: --model microsoft/Phi-3.5-mini-instruct
+    command: --model facebook/opt-125m
 
